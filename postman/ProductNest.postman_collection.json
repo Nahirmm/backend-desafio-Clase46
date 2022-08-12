@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "e10dfdc0-a510-4254-adc3-28a1c3314e7b",
+		"name": "ProductNest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9052238"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "pepito 3",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "125555",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "153",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "subido por nest",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "pepito 3",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "125555",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "153",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "subido por nest",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "156",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"value": "lalala",
+							"type": "text"
+						},
+						{
+							"key": "timestamp",
+							"value": "01/08/2022 19:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/Product/:id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "pepito 3",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "125555",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "153",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "subido por nest",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/product/62e91b81e5cd17825a822cb5",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"62e91b81e5cd17825a822cb5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/Product/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "pepito 3",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "125555",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "153",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "subido por nest",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/product/62e91b81e5cd17825a822cb5",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"62e91b81e5cd17825a822cb5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "de graphQL a NEst con put",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "125555",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "codigo",
+							"value": "15327",
+							"type": "text"
+						},
+						{
+							"key": "descripcion",
+							"value": "modificado por NEST",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/product/62cbdf529549f8370d21d548",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"62cbdf529549f8370d21d548"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
